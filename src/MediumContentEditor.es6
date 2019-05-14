@@ -15,7 +15,7 @@ import {NgControl, ControlValueAccessor} from 'angular2/common';
 /**
  * MediumEditor component
  * Usage :
- * <textarea [(ngModel)]="data" [config]="{...}" configFile="file.js"></textarea>
+ * <medium-editor [(html)]="data" [config]="{...}" ></medium-editor>
  */
 @Component({
     selector: 'meditor.editable',
